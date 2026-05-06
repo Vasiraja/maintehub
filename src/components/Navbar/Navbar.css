@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 93.61%;
+    margin: 1.6% 3.1%;
+    align-items: center;
+    z-index: 100;
+
+
+}
+
+.navcenter {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.navcenter li {
+    padding: 1rem;
+    font-family: "Geist";
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 25.5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.navcenter li img {
+    width: 6px;
+}
+
+.navright p {
+    font-family: "Geist";
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25.5px;
+    color: #fff;
+    text-decoration: underline;
+
+
+}
