@@ -10,6 +10,8 @@ import whatWeDoForth from "../../assets/images/homepage/whatwedo/whatwedoforthim
 import whatWeDoFifth from "../../assets/images/homepage/whatwedo/whatwedofifthimg.jpg";
 import whatWeDoSixth from "../../assets/images/homepage/whatwedo/whatwedosixthimg.jpg";
 import ceoImg from "../../assets/images/ceo.jpg";
+import Featuredarticles from '../../components/Featuredarticles/Featuredarticles';
+import Footer from '../../components/Footer/Footer';
 
 const whatWeDoData = [
     {
@@ -192,7 +194,7 @@ const Homepage = () => {
 
             </div>
             <div className="faqdivblock">
-                <span>FAQ'S</span>
+                <span className='headerspan'>FAQ'S</span>
                 <h3>Frequently Asked Question</h3>
 
                 <div className="faqdivblock-questions">
@@ -214,6 +216,9 @@ const Homepage = () => {
                     ))}
                 </div>
             </div>
+            <Featuredarticles />
+            <Footer/>
+            
 
 
         </div>

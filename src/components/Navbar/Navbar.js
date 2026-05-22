@@ -17,6 +17,7 @@ const Navbar = () => {
                 <li>Blogs    <img src={navExpand} alt="navexpandbar" /> </li>
                 <li>Contact</li>
 
+
             </ul>
             <div className="navright">
                 <p>REQUEST A DEMO</p>

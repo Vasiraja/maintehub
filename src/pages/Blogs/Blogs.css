@@ -1,0 +1,310 @@
+.blogs {
+    max-width: 100%;
+    width: 100%;
+}
+
+.blogbannersection {
+    position: relative;
+}
+
+.blogbannerimg {
+    width: 100%;
+    height: 760px;
+
+}
+
+.recentnews h1:first-child {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 45.4px;
+    line-height: 52.8px;
+    letter-spacing: 0.4px;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1)
+}
+
+.relativediv {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    max-width: 92%;
+    width: 100%;
+    bottom: 64px;
+    right: 64px;
+}
+
+.relativediv p {
+    max-width: 21.76%;
+    width: 100%;
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.relativediv h2 {
+    font-family: "Geist";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.relativediv h2 span {
+    font-weight: 600;
+}
+
+.recentnews {
+
+    margin: 80px 60px;
+}
+
+.individual-recentnews {
+    width: 100%;
+    padding: 64px;
+    position: relative;
+
+
+}
+
+.individual-recentnews img {
+    width: 100%;
+    height: 394px;
+    object-fit: cover;
+
+}
+
+.imgdescription {
+    position: absolute;
+    bottom: calc(12.5% + 1rem);
+    left: calc(10% + 1rem);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.wholerecentnews {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.imgdescription p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20.3px;
+    letter-spacing: -0.45px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+.imgdescription p:first-child {
+    width: 97%;
+}
+/* ================================
+   RESPONSIVE — TABLET 1024px
+   ================================ */
+@media (max-width: 1024px) {
+
+    /* Banner */
+    .blogbannerimg {
+        height: 560px;
+    }
+
+    .relativediv {
+        flex-direction: column;
+        gap: 12px;
+        bottom: 40px;
+        right: 40px;
+        max-width: 70%;
+    }
+
+    .relativediv h2 {
+        font-size: 44px;
+        line-height: 52px;
+        letter-spacing: 2px;
+    }
+
+    .relativediv p {
+        max-width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    /* Recent News */
+    .recentnews {
+        margin: 60px 40px;
+    }
+
+    .recentnews h1:first-child {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .wholerecentnews {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .individual-recentnews {
+        padding: 40px;
+    }
+
+    .individual-recentnews img {
+        height: 320px;
+    }
+}
+
+/* ================================
+   RESPONSIVE — SMALL TABLET 768px
+   ================================ */
+@media (max-width: 768px) {
+
+    /* Banner */
+    .blogbannerimg {
+        height: 460px;
+    }
+
+    .relativediv {
+        flex-direction: column;
+        gap: 10px;
+        bottom: 28px;
+        right: 24px;
+        max-width: 80%;
+    }
+
+    .relativediv h2 {
+        font-size: 34px;
+        line-height: 42px;
+        letter-spacing: 1.5px;
+    }
+
+    .relativediv p {
+        font-size: 15px;
+        max-width: 100%;
+        text-align: left;
+    }
+
+     .recentnews {
+        margin: 48px 24px;
+    }
+
+    .recentnews h1:first-child {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .wholerecentnews {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .individual-recentnews {
+        padding: 24px;
+    }
+
+    .individual-recentnews img {
+        height: 480px;
+    }
+
+    .imgdescription {
+        bottom: calc(8% + 1rem);
+        left: calc(6% + 1rem);
+    }
+
+    .imgdescription p {
+        font-size: 18px;
+    }
+}
+
+ 
+@media (max-width: 480px) {
+
+     .blogbannerimg {
+        height: 360px;
+    }
+
+    .relativediv {
+        bottom: 20px;
+        right: 16px;
+        max-width: 90%;
+        gap: 8px;
+    }
+
+    .relativediv h2 {
+        font-size: 26px;
+        line-height: 34px;
+        letter-spacing: 1px;
+    }
+
+    .relativediv p {
+        font-size: 13px;
+    }
+
+     .recentnews {
+        margin: 36px 16px;
+    }
+
+    .recentnews h1:first-child {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .individual-recentnews {
+        padding: 16px;
+    }
+
+    .individual-recentnews img {
+        height: 260px;
+    }
+
+    .imgdescription {
+        bottom: calc(6% + 1rem);
+        left: calc(5% + 1rem);
+        gap: 4px;
+    }
+
+    .imgdescription p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
+ 
+@media (max-width: 360px) {
+
+    .blogbannerimg {
+        height: 300px;
+    }
+
+    .relativediv h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .relativediv p {
+        font-size: 12px;
+    }
+
+    .recentnews h1:first-child {
+        font-size: 22px;
+    }
+
+    .individual-recentnews img {
+        height: 220px;
+    }
+
+    .imgdescription p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,707 @@
+.about {
+    max-width: 93.12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 46px;
+    margin-top: 160px;
+    position: relative;
+}
+
+.aboutblock-header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aboutblock-header-left p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(30, 30, 31, 1);
+    max-width: 70.60%;
+    width: 100%;
+}
+
+.aboutblock-header-right {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 46.7px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.aboutblock-header-left span {}
+
+.aboutblock-header {
+    display: flex;
+}
+
+.aboutblock-banner {
+    width: 100%;
+    margin-top: 2rem;
+    height: 445px;
+}
+
+.aboutblock-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.storyblock {
+    margin: 80px 0;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 8.6%;
+}
+
+.storyblock-left {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    max-width: 44.09%;
+}
+
+.storyblock-right {
+    height: 100%;
+    max-width: 47.23%;
+    width: 100%;
+}
+
+.storyblock-question {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.storyblock-question p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 22.1px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.storyblock-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.achievements-stats {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.achievements-stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    max-width: 24.98%;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(201, 201, 201, 1);
+    margin-top: 42px;
+}
+
+.achievements-stats div h6 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 43.1px;
+    text-align: center;
+}
+
+.achievements-stats div p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.statsblock {
+    max-width: 93.12%;
+    width: 100%;
+}
+
+.statsblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statsblock h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 45.2px;
+    line-height: 52.8px;
+    text-align: center;
+    margin: 22px 0;
+}
+
+.statsblock-group {
+    width: 100%;
+}
+
+.statsblock-group img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.leadershipblock {
+    max-width: 93.12;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.leadershipblock h3 {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 42.1px;
+    max-width: 72.91%;
+    width: 100%;
+    letter-spacing: -2.1px;
+    margin: 2rem 0;
+}
+
+.founders {
+    display: flex;
+    gap: 0.9rem;
+}
+
+.founders .blocks {
+    max-width: 49.21%;
+    width: 100%;
+    height: 694px;
+}
+
+.blocks img {
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description-founder {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 40px;
+}
+
+.description-founder p:first-child {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.description-founder p:last-child {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 15.55px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+}
+
+.storyblockadditional {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.insidecards-storyblock {
+    height: 350px;
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 18px;
+}
+
+.insidecards-storyblock::-webkit-scrollbar {
+    display: none;
+}
+
+.individual-cards {
+    height: 100%;
+    min-width: 36.5%;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 251, 235, 1);
+}
+
+.toppart {
+    font-family: "Geist";
+    font-weight: 500;
+    font-size: 22.1px;
+    line-height: 26.5px;
+    color: rgba(78, 78, 78, 1);
+    max-width: 87.37%;
+    width: 100%;
+}
+
+.bottompart p:first-child {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20.3px;
+    letter-spacing: -0.45px;
+}
+
+.bottompart p:last-child {
+    font-family: "PT Mono";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.55px;
+    letter-spacing: -0.52px;
+    text-transform: uppercase;
+}
+
+.contactform-block {
+    height: 552px;
+    background-color: rgba(222, 101, 54, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.contactform-header {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 42.1px;
+    line-height: 50.5px;
+    letter-spacing: -2.1px;
+    text-align: center;
+    vertical-align: middle;
+    width: 560px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contactform-block p {
+    font-family: "Geist";
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25.5px;
+    letter-spacing: 4%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-32px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(32px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.reveal-delay-1 {
+    transition-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+    transition-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+    transition-delay: 0.3s;
+}
+
+.reveal-delay-4 {
+    transition-delay: 0.4s;
+}
+
+
+@media (max-width: 1024px) {
+    .about {
+        margin: 0 24px;
+        margin-top: 120px;
+        max-width: calc(100% - 48px);
+    }
+
+    .aboutblock-header {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .aboutblock-header-right {
+        font-size: 36px;
+    }
+
+    .aboutblock-header-left p {
+        max-width: 100%;
+    }
+
+    .aboutblock-banner {
+        height: 320px;
+    }
+
+    .storyblock {
+        height: auto;
+        flex-direction: column;
+        gap: 40px;
+        margin: 60px 0;
+    }
+
+    .storyblock-left {
+        max-width: 100%;
+    }
+
+    .storyblock-right {
+        max-width: 100%;
+        height: 380px;
+    }
+
+    .storyblock-question p {
+        font-size: 18px;
+    }
+
+    .statsblock h3 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .achievements-stats {
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 1rem;
+    }
+
+    .achievements-stats div {
+        max-width: 48%;
+        height: 180px;
+    }
+
+    .leadershipblock h3 {
+        font-size: 32px;
+        max-width: 100%;
+    }
+
+    .founders {
+        flex-direction: column;
+    }
+
+    .founders .blocks {
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .individual-cards {
+        min-width: 70%;
+    }
+
+    .contactform-header {
+        font-size: 32px;
+        line-height: 40px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        margin: 0 16px;
+        margin-top: 90px;
+        max-width: calc(100% - 32px);
+    }
+
+    .aboutblock-header-right {
+        font-size: 28px;
+    }
+
+    .aboutblock-banner {
+        height: 240px;
+    }
+
+    .storyblock {
+        margin: 48px 0;
+        gap: 32px;
+    }
+
+    .storyblock-right {
+        height: 280px;
+    }
+
+    .storyblock-question p {
+        font-size: 16px;
+    }
+
+    .statsblock h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .achievements-stats div {
+        max-width: 48%;
+        height: 150px;
+    }
+
+    .achievements-stats div h6 {
+        font-size: 32px;
+    }
+
+    .achievements-stats div p {
+        font-size: 11px;
+    }
+
+    .leadershipblock {
+        margin: 48px 0;
+    }
+
+    .leadershipblock h3 {
+        font-size: 26px;
+        letter-spacing: -1px;
+        line-height: 34px;
+    }
+
+    .founders .blocks {
+        height: fit-content;
+    }
+
+    .description-founder p:first-child {
+        font-size: 22px;
+    }
+
+    .description-founder p:last-child {
+        font-size: 15px;
+    }
+
+    .storyblockadditional {
+        margin: 48px 0;
+        gap: 28px;
+    }
+
+    .insidecards-storyblock {
+        height: auto;
+        flex-direction: row;
+    }
+
+    .individual-cards {
+        min-width: 80%;
+        height: 300px;
+    }
+
+    .toppart {
+        font-size: 17px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+
+    .contactform-block {
+        height: auto;
+        padding: 60px 24px;
+        gap: 18px;
+    }
+
+    .contactform-header {
+        font-size: 26px;
+        line-height: 34px;
+        letter-spacing: -1px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        margin: 0 12px;
+        margin-top: 72px;
+        max-width: calc(100% - 24px);
+    }
+
+    .aboutblock-header-right {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .aboutblock-banner {
+        height: 190px;
+        margin-top: 1.2rem;
+    }
+
+    .storyblock {
+        margin: 36px 0;
+        gap: 24px;
+    }
+
+    .storyblock-right {
+        height: 220px;
+    }
+
+    .storyblock-question p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .statsblock h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 16px 0;
+    }
+
+    .achievements-stats {
+        gap: 10px;
+    }
+
+    .achievements-stats div {
+        max-width: 48%;
+        height: 130px;
+        margin-top: 20px;
+    }
+
+    .achievements-stats div h6 {
+        font-size: 26px;
+    }
+
+    .achievements-stats div p {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .leadershipblock {
+        margin: 36px 0;
+    }
+
+    .leadershipblock h3 {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        line-height: 28px;
+        margin: 1rem 0;
+    }
+
+    .founders {
+        gap: 24px;
+    }
+
+    .founders .blocks {
+        height: 280px;
+    }
+
+    .description-founder {
+        margin-top: 16px;
+        gap: 0.8rem;
+    }
+
+    .description-founder p:first-child {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .description-founder p:last-child {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .storyblockadditional {
+        margin: 36px 0;
+        gap: 20px;
+    }
+
+    .individual-cards {
+        min-width: 88%;
+        height: 260px;
+        padding: 18px;
+    }
+
+    .toppart {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .bottompart p:first-child {
+        font-size: 13px;
+    }
+
+    .bottompart p:last-child {
+        font-size: 11px;
+    }
+
+    .contactform-block {
+        padding: 48px 16px;
+    }
+
+    .contactform-header {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .contactform-block p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    .aboutblock-header-right {
+        font-size: 19px;
+    }
+
+    .statsblock h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .achievements-stats div h6 {
+        font-size: 22px;
+    }
+
+    .leadershipblock h3 {
+        font-size: 18px;
+    }
+
+    .founders .blocks {
+        height: 240px;
+    }
+
+    .contactform-header {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .individual-cards {
+        min-width: 92%;
+    }
+}

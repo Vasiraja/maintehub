@@ -6,4 +6,19 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Mono&display=swap');
+.headerspan {
+  background-color: rgba(222, 101, 54, 1);
+  font-family: "Geist";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  width: 87px;
+  height: 36px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
 
+}

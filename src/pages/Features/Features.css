@@ -1,0 +1,92 @@
+.features {
+    max-width: 100%;
+    width: 100%;
+}
+
+.features .features-banner img {
+    height: 760px;
+    width: 100%;
+}
+
+.service-features {
+    margin: 80px 60px;
+
+}
+
+.header-features {
+    max-width: 73.71%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.header-features h1 {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 1)
+}
+
+.header-features p {
+    max-width: 75%;
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.individual-services-points p:first-child {
+    font-family: "Geist";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22.1px;
+    line-height: 26.5px;
+
+    color: rgba(0, 0, 0, 1);
+
+
+
+}
+
+.individual-services-points p:last-child {
+    font-family: "Geist";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 20.3px;
+    letter-spacing: -0.45px;
+    vertical-align: middle;
+}
+.individual-services-points{
+    display: grid;
+    grid-template-columns: 1fr 40% 1fr;
+    /* grid-template-columns: repeat(1,2fr); */
+    place-content: center;
+    height: 147px;
+     
+}
+#features-description{
+    max-width: 100%;
+    width: 100%;
+ 
+}
+.individual-services-points p{
+    display: flex;
+    align-items: center;
+}
+
+.services-points{
+    margin: 0 60px;
+    max-width: 91.66%;
+    width: 100%;
+    
+}
+
+
+ 
