@@ -90,35 +90,10 @@ const processData = [
         description: "We provide transparent reporting, regular updates, and dedicated support."
     }
 ];
-const faqs = [
-    {
-        id: 1,
-        question: "What is Maintehub?",
-        answer: "Maintehub is a platform designed to streamline maintenance operations and help teams manage tasks efficiently.",
-    },
-    {
-        id: 2,
-        question: "What services does Maintehub offer?",
-        answer: "Simply sign up for an account, set up your workspace, and invite your team members to begin collaborating.",
-    },
-    {
-        id: 3,
-        question: "How can Maintehub help my business?",
-        answer: "Simply sign up for an account, set up your workspace, and invite your team members to begin collaborating.",
-    },
-    {
-        id: 4,
-        question: "How do I get started with Maintehub?",
-        answer: "Simply sign up for an account, set up your workspace, and invite your team members to begin collaborating.",
-    },
-];
+ 
 
 const Homepage = () => {
-    const [openId, setOpenId] = useState(null);
-
-    const handleToggle = (id) => {
-        setOpenId((prev) => (prev === id ? null : id));
-    };
+    
     return (
         <div className='homepage'>
             <div className="covercontainer">
