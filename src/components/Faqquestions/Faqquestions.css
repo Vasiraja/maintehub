@@ -1,0 +1,85 @@
+.faqdivblock {
+    max-width: 93.12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-left: 1rem;
+}
+
+.faqdivblock h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 45.2px;
+    line-height: 52.8px;
+    color: rgba(0, 0, 0, 1);
+    margin: 22px 0;
+}
+
+.faqdivblock span {
+    background-color: rgba(222, 101, 54, 1);
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    width: 87px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqdivblock-questions {
+    max-width: 41.66%;
+    width: 100%;
+}
+
+.eachquestions-wrapper {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.eachquestions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: none;
+}
+
+.eachquestions p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20.3px;
+    padding-right: 12px;
+}
+
+.eachquestions button {
+    background-color: rgba(228, 228, 228, 1);
+    color: rgb(179, 179, 187);
+    border-radius: 50%;
+    width: 22px;
+    font-size: 30px;
+    height: 22px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 100;
+    flex-shrink: 0;
+}
+
+.faq-answer {
+    padding: 0 0 1rem 0;
+}
+
+.faq-answer p {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.6);
+}

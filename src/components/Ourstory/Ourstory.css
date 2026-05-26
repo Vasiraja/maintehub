@@ -1,0 +1,125 @@
+.storyblockadditional {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.insidecards-storyblock {
+    height: 350px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 18px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.insidecards-storyblock::-webkit-scrollbar {
+    display: none;
+}
+
+.individual-cards {
+    height: 100%;
+    min-width: 36.5%;
+    width: 100%;
+
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgba(255, 251, 235, 1);
+}
+
+.toppart {
+    font-family: "Geist";
+    font-weight: 500;
+    font-size: 22.1px;
+    line-height: 26.5px;
+    color: rgba(78, 78, 78, 1);
+
+    max-width: 87.37%;
+    width: 100%;
+}
+
+.bottompart p:first-child {
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20.3px;
+    letter-spacing: -0.45px;
+}
+
+.bottompart p:last-child {
+    font-family: "PT Mono";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.55px;
+    letter-spacing: -0.52px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+    .individual-cards {
+        min-width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .storyblockadditional {
+        margin: 48px 0;
+        gap: 28px;
+    }
+
+    .insidecards-storyblock {
+        height: auto;
+    }
+
+    .individual-cards {
+        min-width: 80%;
+        height: 300px;
+    }
+
+    .toppart {
+        font-size: 17px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .storyblockadditional {
+        margin: 36px 0;
+        gap: 20px;
+    }
+
+    .individual-cards {
+        min-width: 88%;
+        height: 260px;
+        padding: 18px;
+    }
+
+    .toppart {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .bottompart p:first-child {
+        font-size: 13px;
+    }
+
+    .bottompart p:last-child {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .individual-cards {
+        min-width: 92%;
+    }
+}

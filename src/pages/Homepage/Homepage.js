@@ -12,6 +12,7 @@ import whatWeDoSixth from "../../assets/images/homepage/whatwedo/whatwedosixthim
 import ceoImg from "../../assets/images/ceo.jpg";
 import Featuredarticles from '../../components/Featuredarticles/Featuredarticles';
 import Footer from '../../components/Footer/Footer';
+import Faqquestions from '../../components/Faqquestions/Faqquestions';
 
 const whatWeDoData = [
     {
@@ -193,32 +194,10 @@ const Homepage = () => {
                 </div>
 
             </div>
-            <div className="faqdivblock">
-                <span className='headerspan'>FAQ'S</span>
-                <h3>Frequently Asked Question</h3>
-
-                <div className="faqdivblock-questions">
-                    {faqs.map((faq) => (
-                        <div key={faq.id} className="eachquestions-wrapper">
-                            <div className="eachquestions">
-                                <p>{faq.question}</p>
-                                <button onClick={() => handleToggle(faq.id)}>
-                                    {openId === faq.id ? "−" : "+"}
-                                </button>
-                            </div>
-
-                            {openId === faq.id && (
-                                <div className="faq-answer">
-                                    <p>{faq.answer}</p>
-                                </div>
-                            )}
-                        </div>
-                    ))}
-                </div>
-            </div>
+            <Faqquestions />
             <Featuredarticles />
-            <Footer/>
-            
+            <Footer />
+
 
 
         </div>

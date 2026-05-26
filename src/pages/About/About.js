@@ -5,6 +5,7 @@ import storyBanner from "../../assets/images/homepage/about/storyimg.jpg";
 import statsBanner from "../../assets/images/statsbanner.jpg";
 import founderone from "../../assets/images/ceo.jpg"
 import foundertwo from "../../assets/images/ceo2.jpg"
+import Ourstory from '../../components/Ourstory/Ourstory';
 
 const About = () => {
 
@@ -109,81 +110,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="storyblockadditional">
-                <span className="headerspan reveal">OUR STORY</span>
-                <div className="insidecards-storyblock">
-                    <div className="individual-cards reveal reveal-delay-1">
-                        <p className="toppart">
-                            "We've seen a significant reduction in
-                            our energy costs since partnering
-                            with Hydra. Their expertise and
-                            support have been invaluable in
-                            helping us achieve our sustainability
-                            goals."
-                        </p>
-                        <div className="bottompart">
-                            <p>David K</p>
-                            <p>Facilities Manager</p>
-                        </div>
-                    </div>
-                    <div className="individual-cards reveal reveal-delay-2">
-                        <p className="toppart">
-                            "We've seen a significant reduction in
-                            our energy costs since partnering
-                            with Hydra. Their expertise and
-                            support have been invaluable in
-                            helping us achieve our sustainability
-                            goals."
-                        </p>
-                        <div className="bottompart">
-                            <p>David K</p>
-                            <p>Facilities Manager</p>
-                        </div>
-                    </div>
-                    <div className="individual-cards reveal reveal-delay-3">
-                        <p className="toppart">
-                            "We've seen a significant reduction in
-                            our energy costs since partnering
-                            with Hydra. Their expertise and
-                            support have been invaluable in
-                            helping us achieve our sustainability
-                            goals."
-                        </p>
-                        <div className="bottompart">
-                            <p>David K</p>
-                            <p>Facilities Manager</p>
-                        </div>
-                    </div>
-                    <div className="individual-cards reveal reveal-delay-4">
-                        <p className="toppart">
-                            "We've seen a significant reduction in
-                            our energy costs since partnering
-                            with Hydra. Their expertise and
-                            support have been invaluable in
-                            helping us achieve our sustainability
-                            goals."
-                        </p>
-                        <div className="bottompart">
-                            <p>David K</p>
-                            <p>Facilities Manager</p>
-                        </div>
-                    </div>
-                    <div className="individual-cards reveal reveal-delay-4">
-                        <p className="toppart">
-                            "We've seen a significant reduction in
-                            our energy costs since partnering
-                            with Hydra. Their expertise and
-                            support have been invaluable in
-                            helping us achieve our sustainability
-                            goals."
-                        </p>
-                        <div className="bottompart">
-                            <p>David K</p>
-                            <p>Facilities Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+             <Ourstory/>
 
             <div className="contactform-block reveal">
                 <span className="headerspan" style={{ backgroundColor: "#fff", color: "rgba(0, 0, 0, 1)" }}>CONTACT</span>

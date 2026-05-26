@@ -8,6 +8,8 @@ import thirdFeatureIcon from "../../assets/images/Features Page/featurespoint3.p
 import forthFeatureIcon from "../../assets/images/Features Page/featurespoint4.png"
 import fifthFeatureIcon from "../../assets/images/Features Page/featurespoint5.png"
 import sixthFeatureIcon from "../../assets/images/Features Page/featurespoint6.png"
+import Featuredarticles from '../../components/Featuredarticles/Featuredarticles';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -62,6 +64,8 @@ const Features = () => {
                     <p id="features-description">Access real-time insights on maintenance performance, downtime, and operational costs.</p>
                 </div>
             </div>
+            <Featuredarticles />
+            <Footer/>
 
 
 
