@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Homepage.css";
 import homePageCover from "../../assets/images/homepage/homepagecover.jpg"
 import LogoLight from "../../assets/images/maintehub-whitelogo light.png";
